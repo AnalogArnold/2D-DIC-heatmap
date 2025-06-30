@@ -13,7 +13,7 @@
 # Note that this code is written for the specific experiment during my PhD studies, but it should be easy to adapt it to
 # other experiments.
 # Naming conventions: the data from each attempt is stored under sample code_attempt code_frames per second_a/b.
-# For example, Processed -> S1_static01_60fps_a -> from S1_static01_60fps_a 0001.csv to C1static04a0250.csv for 250
+# For example, Processed -> S1_static01_60fps_a -> from S1_static01_60fps_a0001.csv to S1_static01_60fps_a0250.csv for 250
 # images taken in an attempt.
 # In this case it made sense to process each attempt separately rather than automating the entire process so I could
 # notice any abnormalities as I went.
