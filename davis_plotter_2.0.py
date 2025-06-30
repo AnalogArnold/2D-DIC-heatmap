@@ -168,10 +168,10 @@ class NoiseFloorAnalyser:
                 ]
             grid_data['x position [mm]'].append(round(x, 2))
             grid_data['y position [mm]'].append(round(y, 2))
-            # Find the mean of the x/y displacements at the given x and y position in all images taken.
+            # Find the mean of the x/y displacements at the given x and y position in all images taken
             grid_data['mean x displacement [px]'].append(result['x-displacement [px]'].mean())
             grid_data['mean y displacement [px]'].append(result['y-displacement [px]'].mean())
-            # Standard deviation of x-displacement (temporal noise floor) at (x,y) in all images taken.
+            # Standard deviation of x-displacement at (x,y) in all images taken
             grid_data['U_x std [px]'].append(result['x-displacement [px]'].std())
         return grid_data
 
