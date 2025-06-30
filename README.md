@@ -38,6 +38,7 @@ If you want to learn more about this technique, you can start with [Photo-Sonics
   * $${\color{red}IMPORTANT!}$$ matplotlib **3.7.3**
     * This is **critical for the heatmaps**. Newer versions change subplot sharing behavior and will break heatmap plots as implemented. You can see this in effect below:
     ![comparison of heatmaps plotted using matplotlib 3.7.3 and newer](/images/matplotlib_version_info.png)
+
 To install dependencies, you can use:
 ```
 pip install matplotlib==3.7.3 pandas numpy seaborn easygui
@@ -75,6 +76,8 @@ If your filename contains the framerate in it, the line plots will automatically
 * **Many (perhaps *too* many) comments:** This is for two reasons:
   * This code was written for me and my labmates who, for the most part, do not have much coding experience and I wanted this to be as understandable for them as possible.
   * Plotting heatmaps and using classes (version 2.0) was something new to me at the time, so I kept these comments for future reference.
+* **Figure aesthetics:** Admittedly, the whitespace between the suptitle and the rest of the figure could be adjusted to look a bit better.
+
 # License
 MIT License
 Copyright (C) 2025 AnalogArnold (Michael Darcy)
