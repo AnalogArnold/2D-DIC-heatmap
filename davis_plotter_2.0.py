@@ -264,7 +264,7 @@ class NoiseFloorAnalyser:
         y1.set_ylabel('')
         output_path = os.path.join(self.top_directory, f"{self.directory_name} x 2D_map.png")
         plt.show()
-        #map_2D.savefig(output_path)
+        map_2D.savefig(output_path)
         #plt.close() # Optional, I like to see the plots as I process the data to quickly identify abnormalities
 
     def _create_and_save_heatmap_mean_xy(self, mean_x_map, mean_y_map, x_dis, y_dis):
@@ -315,7 +315,7 @@ class NoiseFloorAnalyser:
         hxx[2].set_title('\n\n\n\n\n\n\n\n')
         output_path = os.path.join(self.top_directory, f"{self.directory_name} 2D_maps.png")
         plt.show()
-        #maps_2D.savefig(output_path)
+        maps_2D.savefig(output_path)
         #plt.close() # Optional, I like to see the plots as I process the data to quickly identify abnormalities
 
     def _replace_plot_ticks(self, axis_entity):
@@ -381,7 +381,7 @@ class NoiseFloorAnalyser:
         axs1[0].fill_between(temporal_values, plusStd, minusStd, facecolor='#7a6563', alpha=0.2)
         output_path = os.path.join(self.top_directory, f"{self.directory_name} x_displacement statistics.png")
         plt.show()
-        #fig1.savefig(output_path)
+        fig1.savefig(output_path)
         #plt.close() # Optional, I like to see the plots as I process the data to quickly identify abnormalities
 
 #######################################################################################################################
