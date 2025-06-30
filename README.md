@@ -80,6 +80,7 @@ If your filename contains the framerate in it, the line plots will automatically
 
 # License
 MIT License
+
 Copyright (C) 2025 AnalogArnold (Michael Darcy)
 
 If you use or adapt this code, please cite or acknowledge the author.
